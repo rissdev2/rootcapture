@@ -588,7 +588,70 @@ color: #FFFFFF;
 
 
 
+/*********** Mobile Section Responsive start  ********/
+@media screen and (max-width: 767px) {
+    .navbar-expand-lg .navbar-nav .nav-link{
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem !important;
+    }
+    .cret-sec h1{
+        font-size: 60px;
+    }
+    .blog-sec h1{
+        font-size: 60px;
+    }
+    .blog-sec h2{
+        font-size: 50px;
+    }
+    .sngl-blg h1{
+        font-size: 38px;
+        line-height: 55px;
+    }
+    .lft-sd p{
+        line-height: 30px
+    }
+    .head-dv h2{
+        font-size: 22px;
+        line-height: 48px;
+    
+    }
+    .sngl-blg h4{
+        font-size: 40px;
+    }
+}
+/*********** Mobile Section Responsive End ********/
+/*********** Tab Section Responsive start ********/
+@media (min-device-width: 768px) and (max-device-width: 1080px){
+    .blog-sec h1{
+        font-size: 65px;
+    }
+    .blog-sec h2{
+        font-size: 55px;
+    }
+    .sngl-blg h1{
+        font-size: 45px;
+    line-height: 65px;
+    }
+    .lft-sd p{   
+        line-height: 35px;
+    }
+    .sid-div label{
+        font-size: 25px;
+    }
+    .accordion-button{
+        font-size: 20px;
+    }
+    .head-dv h2{
+        
+    font-size: 30px;
+    line-height: 55px;
 
+    }
+    .rcnt-pst h5{
+        line-height: 150%;
+    }
+}
+/*********** Tab Section Responsive End ********/
 
 
 
